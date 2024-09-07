@@ -4,16 +4,16 @@
 
 
 :root {
-  --color-main: #6096BA;
-  --color-main-light: #e1f6fb;
-  --color-dark: #274C77;
-  --color-dark-medium: #51546e;
-  --color-dark-light: #696d97;
-  --color-light: #e5e5e5;
-  --color-gray: #8B8C89;
-  --color-light-gray: #E7ECEF;
-  --color-bg: #6096BA;
-  --color-success: #5dd693;
+  --color-main: #adbbda;
+  --color-main-light: #0096ff;
+  --color-bg: #adbbda;
+  --color-dark-medium: #333333;
+  --color-dark-light: #666666;
+  --color-light: #ede8f5;
+  --color-gray: #8697ca;
+  --color-light-gray: #cccccc;
+  --color-dark: #3d52a0;
+  --color-success: #00c853;
   --color-error: #fc4b0b;
 }
 
@@ -30,6 +30,7 @@
   text-rendering: optimizeLegibility;
   /* color: inherit; */
   font-size: inherit;
+  color: white;
 }
 
 html {
@@ -91,7 +92,7 @@ a {
 .btn--link {
   border-radius: 0;
   padding: 0;
-  color: var(--color-main);
+  color: var(--color-light);
   box-shadow: none;
 }
 
@@ -124,7 +125,7 @@ a {
   font-size: 1.4rem;
   font-weight: 700;
   padding: 6px 2.5rem;
-  color: var(--color-main);
+  color: var(--color-dark);
   background: transparent;
   border: 2px solid var(--color-main);
 }
@@ -580,13 +581,13 @@ a {
   justify-content: space-between;
   margin-bottom: 3rem;
   font-weight: 500;
-  color: var(--color-light-gray);
+  color: var(--color-light);
   transition: all 0.3s ease-in-out;
 }
 
 .topics__list li a.active,
 .topics__list li a:hover {
-  color: var(--color-main);
+  color: var(--color-dark);
 }
 
 .topics__list li a span {
@@ -764,7 +765,7 @@ a {
 }
 
 .activities__boxHeader p span {
-  color: var(--color-gray);
+  color: var(--color-light);
   font-size: 1.2rem;
   display: block;
 }
@@ -782,11 +783,12 @@ a {
 }
 
 .activities__boxRoomContent {
-  background: var(--color-bg);
+  background: var(--color-gray);
   padding: 1rem;
   border-radius: 5px;
   margin-top: 1rem;
   margin-left: -4.2rem;
+  color: var(--color-light);
 }
 
 .roomListRoom__actions svg {
@@ -883,6 +885,7 @@ a {
 
 .profile__about {
   margin-top: 2rem;
+  color: var(--color-light);
 }
 
 .profile__about h3 {
@@ -1055,7 +1058,7 @@ a {
 .threads h3 {
   text-transform: uppercase;
   font-weight: 500;
-  color: var(--color-gray);
+  color: var(--color-dark-light);
 }
 
 .threads {
@@ -1078,6 +1081,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--color-dark-medium);
 }
 
 .thread__top svg {
@@ -1095,11 +1099,13 @@ a {
   display: flex;
   align-items: center;
   gap: 1rem;
+  color: var(--color-dark-medium);
 }
 
 .thread__details {
   font-size: 1.4rem;
   margin-top: 0.5rem;
+  color: var(--color-dark-medium);
 }
 
 .room__message {
