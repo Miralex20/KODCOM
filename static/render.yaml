@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: mybud
-    buildCommand: "./build.sh"
-    env: python
-    startCommand: "gunicorn mybud.wsgi:application"
